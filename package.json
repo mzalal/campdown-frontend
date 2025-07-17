@@ -1,5 +1,5 @@
 {
-    "name": "frontend",
+    "name": "campdown-frontend",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -9,6 +9,10 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mzalal/campdown-frontend"
     },
     "dependencies": {
         "react": "^19.1.0",
