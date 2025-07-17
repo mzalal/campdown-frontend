@@ -7,6 +7,7 @@
     font-size: 16px;
     color: var(--off-white);
 
+    /* Colors */
     --orange: #c23b23;
     --off-white: #c2bdbc;
 
@@ -14,6 +15,19 @@
     --brown-2: #291e1d;
     --brown-3: #1e1615;
     --brown-4: #100a04;
+
+    /* Sizes */
+    --5x-large: 2.986rem;
+    --4x-large: 2.488rem;
+    --3x-large: 2.074rem;
+    --2x-large: 1.728rem;
+    --x-large: 1.44rem;
+    --large: 1.2rem;
+
+    --base: 1rem;
+
+    --small: 0.833rem;
+    --x-small: 0.694rem;
 }
 
 *,
