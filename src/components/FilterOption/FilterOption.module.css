@@ -1,0 +1,29 @@
+.filter-option,
+.filter-option * {
+    cursor: pointer;
+}
+
+.filter-option {
+    color: var(--brown-1);
+    width: fit-content;
+    min-height: 54px;
+    max-height: 54px;
+    font-family: BioRhyme;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 15px;
+}
+
+.filter-option input[type="checkbox"] {
+    all: unset;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.filter-option.checked {
+    color: var(--orange);
+}
