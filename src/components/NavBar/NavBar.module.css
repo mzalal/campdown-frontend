@@ -1,0 +1,29 @@
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    width: 94px;
+    min-height: 100%;
+    background-color: var(--brown-4);
+    transition: all 0.5s;
+}
+
+nav:hover {
+    width: 240px;
+    background: linear-gradient(90deg, var(--brown-4) 60%, transparent);
+}
+
+.logo {
+    font-family: BioRhyme;
+    font-size: var(--2x-large);
+    color: var(--orange);
+    text-decoration: none;
+    transform: rotate(90deg) translate(-15px);
+    /* 
+    * Needed in order to prevent the logo's position from shifting
+    * when nav's width is changed.
+    * */
+    width: 24px;
+}

@@ -1,0 +1,34 @@
+.nav-item {
+    display: flex;
+    height: 24px;
+    flex-direction: row;
+    margin-bottom: 25px;
+    color: var(--off-white);
+    text-decoration: none;
+    font-family: BioRhyme;
+    gap: 15px;
+}
+
+.nav-item:hover,
+.nav-item:hover .icon {
+    color: var(--orange);
+}
+
+.nav-item:last-child {
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: var(--brown-1);
+}
+
+.label {
+    display: none;
+}
+
+nav:hover .label {
+    display: block;
+}

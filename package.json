@@ -15,6 +15,7 @@
         "url": "git+https://github.com/mzalal/campdown-frontend"
     },
     "dependencies": {
+        "@heroicons/react": "^2.2.0",
         "react": "^19.1.0",
         "react-dom": "^19.1.0"
     },
