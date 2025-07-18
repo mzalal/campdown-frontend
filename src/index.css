@@ -6,6 +6,7 @@
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 16px;
     color: var(--off-white);
+    color-scheme: only dark;
 
     /* Colors */
     --orange: #c23b23;
