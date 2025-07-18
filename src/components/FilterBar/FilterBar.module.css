@@ -1,0 +1,21 @@
+.filter-bar {
+    width: 620px;
+    height: 54px;
+    display: flex;
+}
+
+.search-button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    color: var(--brown-1);
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.search-button:hover {
+    color: var(--off-white);
+}
