@@ -11,6 +11,7 @@ import { FireIcon as FireIconOutline } from "@heroicons/react/24/outline";
 import { VideoCameraIcon as VideoCameraIconOutline } from "@heroicons/react/24/outline";
 import { MagnifyingGlassIcon as MagnifyingGlassIconOutline } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
 import { BellIcon as BellIconSolid } from "@heroicons/react/24/solid";
 import { Cog8ToothIcon as Cog8ToothIconSolid } from "@heroicons/react/24/solid";
@@ -48,6 +49,9 @@ function Icon({ name, style }) {
             break;
         case "chevron-down":
             Icon = ChevronDownIcon;
+            break;
+        case "x-mark":
+            Icon = XMarkIcon;
             break;
     }
     return <Icon className={classes.icon} />;
