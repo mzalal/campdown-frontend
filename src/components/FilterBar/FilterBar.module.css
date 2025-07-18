@@ -2,9 +2,11 @@
     width: 620px;
     height: 54px;
     display: flex;
+    position: relative;
 }
 
-.search-button {
+.search-button,
+.close-button {
     all: unset;
     display: flex;
     justify-content: center;
@@ -16,6 +18,14 @@
     margin-left: auto;
 }
 
-.search-button:hover {
+.close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.search-button:hover,
+.close-button:hover {
     color: var(--off-white);
 }
