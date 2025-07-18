@@ -2,3 +2,11 @@
     height: 100%;
     min-height: 100%;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+    /* This is done to avoid overlapping with the navigation bar*/
+    margin-left: 94px;
+}
