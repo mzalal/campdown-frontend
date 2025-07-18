@@ -44,3 +44,9 @@ body {
     height: 100vh;
     min-height: 100vh;
 }
+
+h2 {
+    font-family: BioRhyme;
+    font-size: var(--large);
+    font-weight: 400;
+}

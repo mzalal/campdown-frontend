@@ -1,0 +1,96 @@
+.feed-item {
+    width: 620px;
+    max-width: 620px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 5px;
+}
+
+.countdown {
+    font-family: "IBM Plex Mono";
+    font-size: var(--large);
+    width: 150px;
+    min-width: 150px;
+    margin-left: 10px;
+}
+
+.countdown::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: var(--brown-2);
+}
+
+.updates-box {
+    background-color: var(--brown-3);
+    padding: 15px 15px 25px 15px;
+    border-radius: 0 0 20px 20px;
+}
+
+.chat-box {
+    border: 1px solid var(--brown-2);
+    border-top: none;
+    padding: 25px 15px 15px 15px;
+    margin-top: -20px;
+    position: relative;
+    z-index: -10;
+}
+
+.time-tag {
+    font-size: var(--small);
+    color: var(--brown-1);
+    margin-bottom: 10px;
+}
+
+.chatMessage {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 3px;
+}
+
+.username {
+    color: var(--orange);
+    margin-right: 5px;
+}
+
+.actions {
+    display: flex;
+    margin-top: -15px;
+}
+
+.actions button,
+.viewers {
+    background: none;
+    border: none;
+    color: var(--brown-1);
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: var(--small);
+}
+
+.actions button:hover {
+    color: var(--off-white);
+}
+
+.actions button.stoked {
+    color: var(--orange);
+}
+
+.viewers {
+    cursor: auto;
+}
+
+.other-options {
+    margin-right: auto;
+    margin-top: 15px;
+}
