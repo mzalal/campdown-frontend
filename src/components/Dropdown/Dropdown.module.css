@@ -1,0 +1,33 @@
+.dropdown {
+    position: relative;
+    width: fit-content;
+}
+
+.dropdown select {
+    all: unset;
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-width: 150px;
+    height: 54px;
+    border: none;
+    border: 1px solid var(--brown-2);
+    background-color: transparent;
+    color: var(--off-white);
+    font-family: BioRhyme;
+    padding: 0 15px;
+    font-size: 1rem;
+}
+
+.dropdown select option {
+    color: var(--brown-4);
+}
+
+.icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    right: 15px;
+    color: var(--brown-1);
+}
