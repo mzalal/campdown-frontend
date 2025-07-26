@@ -19,6 +19,10 @@
     margin-left: auto;
 }
 
+.search-button {
+    border: 1px solid var(--brown-2);
+}
+
 .close-button {
     position: absolute;
     right: 0;
