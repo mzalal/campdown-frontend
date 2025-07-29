@@ -8,11 +8,11 @@ nav {
     min-height: 100%;
     background-color: var(--brown-4);
     transition: all 0.5s;
+    z-index: 100;
 }
 
 nav:hover {
     width: 240px;
-    background: linear-gradient(90deg, var(--brown-4) 60%, transparent);
 }
 
 .logo {
