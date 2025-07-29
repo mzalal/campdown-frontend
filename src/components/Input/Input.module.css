@@ -20,21 +20,6 @@
     color: var(--brown-1);
 }
 
-.action-button {
-    all: unset;
-    box-sizing: border-box;
-    width: 54px;
-    height: 54px;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-    top: 0;
-    color: var(--brown-1);
-    cursor: pointer;
-}
-
 .action-button:hover {
     color: var(--off-white);
 }
