@@ -7,8 +7,6 @@
 
 .search-button,
 .close-button {
-    all: unset;
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +15,7 @@
     color: var(--brown-1);
     cursor: pointer;
     margin-left: auto;
+    background-color: transparent;
 }
 
 .search-button {
@@ -27,6 +26,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    border: none;
     z-index: 100;
 }
 

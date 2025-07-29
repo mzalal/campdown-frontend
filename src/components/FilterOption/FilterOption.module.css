@@ -20,8 +20,7 @@
 }
 
 .filter-option input[type="checkbox"] {
-    all: unset;
-    box-sizing: border-box;
+    appearance: none;
 }
 
 .icon {
