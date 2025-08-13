@@ -1,0 +1,30 @@
+.event-actions {
+    display: flex;
+}
+
+.event-actions button,
+.viewers {
+    background: none;
+    border: none;
+    color: var(--brown-1);
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: var(--small);
+}
+
+.event-actions button:hover {
+    color: var(--off-white);
+}
+
+.event-actions button.stoked {
+    color: var(--orange);
+}
+
+.viewers {
+    cursor: auto;
+}
+
+.other-options {
+    margin-right: auto;
+    margin-top: 15px;
+}
