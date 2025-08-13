@@ -12,6 +12,7 @@ import { VideoCameraIcon as VideoCameraIconOutline } from "@heroicons/react/24/o
 import { MagnifyingGlassIcon as MagnifyingGlassIconOutline } from "@heroicons/react/24/outline";
 import { UsersIcon as UsersIconOutline } from "@heroicons/react/24/outline";
 import { EllipsisHorizontalIcon as EllipsisHorizontalOutline } from "@heroicons/react/24/outline";
+import { PaperAirplaneIcon as PaperAirplaneIconOutline } from "@heroicons/react/24/outline";
 
 import { BellIcon as BellIconSolid } from "@heroicons/react/24/solid";
 import { Cog8ToothIcon as Cog8ToothIconSolid } from "@heroicons/react/24/solid";
@@ -21,6 +22,7 @@ import { VideoCameraIcon as VideoCameraIconSolid } from "@heroicons/react/24/sol
 import { MagnifyingGlassIcon as MagnifyingGlassIconSolid } from "@heroicons/react/24/solid";
 import { UsersIcon as UsersIconSolid } from "@heroicons/react/24/solid";
 import { EllipsisHorizontalIcon as EllipsisHorizontalSolid } from "@heroicons/react/24/solid";
+import { PaperAirplaneIcon as PaperAirplaneIconSolid } from "@heroicons/react/24/solid";
 
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/outline";
@@ -60,6 +62,12 @@ function Icon({ name, style }) {
                 style === "solid"
                     ? MagnifyingGlassIconSolid
                     : MagnifyingGlassIconOutline;
+            break;
+        case "send":
+            Icon =
+                style === "solid"
+                    ? PaperAirplaneIconSolid
+                    : PaperAirplaneIconOutline;
             break;
         case "chevron-down":
             Icon = ChevronDownIcon;
