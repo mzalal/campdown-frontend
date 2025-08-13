@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import classes from "./NavItem.module.css";
 
@@ -34,15 +35,15 @@ function NavItem({ href, icon, children }) {
     }
 
     return (
-        <a
-            href={href}
+        <Link
+            to={href}
             className={classes.navItem}
             onMouseOver={handleMouseOver}
             onMouseLeave={handleMouseLeave}
         >
             <Icon className={classes.icon} />
             <div className={classes.label}>{children}</div>
-        </a>
+        </Link>
     );
 }
 

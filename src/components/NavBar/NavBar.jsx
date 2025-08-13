@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import NavItem from "../NavItem/NavItem.jsx";
 import classes from "./NavBar.module.css";
 
 function NavBar() {
     return (
         <nav>
-            <a href="#" className={classes.logo}>
+            <Link to="/" className={classes.logo}>
                 Campdown
-            </a>
+            </Link>
             <div>
                 <NavItem href="#" icon="bell">
                     Notifications
