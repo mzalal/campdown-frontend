@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/Root.jsx";
-import Feed from "./pages/Feed.jsx";
-import Event from "./pages/Event.jsx";
-import EventEdit from "./pages/EventEdit.jsx";
+import Feed from "./pages/Feed/Feed.jsx";
+import Event from "./pages/Event/Event.jsx";
+import EventEdit from "./pages/EventEdit/EventEdit.jsx";
 import "./App.css";
 
 const router = createBrowserRouter([

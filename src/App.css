@@ -7,8 +7,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    padding: 35px 0;
     /* This is done to avoid overlapping with the navigation bar*/
     margin-left: 94px;
 }

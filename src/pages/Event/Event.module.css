@@ -1,0 +1,6 @@
+.event {
+    display: grid;
+    grid-template-columns: 620px 465px;
+    gap: 15px;
+    min-height: 100vh;
+}
