@@ -3,6 +3,7 @@ import Root from "./routes/Root.jsx";
 import Feed from "./pages/Feed/Feed.jsx";
 import Event from "./pages/Event/Event.jsx";
 import EventEdit from "./pages/EventEdit/EventEdit.jsx";
+import NotFound from "./pages/NotFound/NotFound.jsx";
 import "./App.css";
 
 const router = createBrowserRouter([
@@ -12,7 +13,8 @@ const router = createBrowserRouter([
         children: [
             { index: true, element: <Feed /> },
             { path: "/event", element: <Event /> },
-            { path: "/event/:id/edit", element: <EventEdit /> }
+            { path: "/event/:id/edit", element: <EventEdit /> },
+            { path: "*", element: <NotFound /> }
         ]
     }
 ]);
